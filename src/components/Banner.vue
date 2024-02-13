@@ -13,13 +13,16 @@ export default {
 
 <style scoped>
  #main-banner {
-    background-image: url("https://www.guaruja.sp.gov.br/wp-content/uploads/2023/08/53077417851_cdba364fed_k-1024x683.jpg");
-    background-position: 0 -250px;
-    background-size: cover;
-    height: 400px;
+    background-image: url("https://tacomfome.com.br/home/assets/img/bg-2.jpg") ;
+    background-position: 0 -450px;
+    background-size: none;
+    height: 500px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    background-repeat: no-repeat;
+    
+    
   }
 
   #main-banner h1 {
