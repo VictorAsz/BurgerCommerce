@@ -32,8 +32,30 @@
 
             console.log('criou burguer')
             
-          }
+            const data = {
+              nome: this.nome,
+              carne: this.carne,
+              pao: this.pao,
+              opicionais: Array.from(this.opcionais),
+              status: "Solicitado",
+            }
 
+            const dataJson = JSON.stringify(data);
+            const req = await fetch("http://localhost:3000/burgers", {
+              method: "POST",
+              headers: { "Content-Type": "application/json"},
+              body: dataJson
+            });
+
+            const res = await req.json();
+
+            console.log(res);
+
+            this.nome = "";
+            this.carne = "";
+            this.pao = "";
+            this.opcionais = "";
+          }
         },
         mounted(){
           this.getIngredientes()
