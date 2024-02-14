@@ -1,8 +1,9 @@
 <template>
+ 
     <Navbar :logo="logo_src" :alt="app_name"/>
     <router-view/>
     <Footer />
-  
+
 </template>
 
 <script>
@@ -31,6 +32,7 @@ export default{
     box-sizing: border-box;
   }
 
+ 
   .main-container {
     margin: 50px;
     min-height: 250px;
