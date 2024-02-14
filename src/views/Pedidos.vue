@@ -1,3 +1,9 @@
+<script>
+export default {
+  name: "pedidos"
+}
+</script>
+
 <template>
   <div class="main-container">
     <h1>created vue project</h1>
