@@ -1,4 +1,5 @@
 <script>
+import Message from './Message.vue';
     export default{
         name: "BurgerForm",
         data(){
@@ -65,6 +66,7 @@
 </script>
 
 <template>
+  <Message/>
     <div>
     <form id="burger-form" method="POST" @submit="createBurger">
       <div class="input-container">
