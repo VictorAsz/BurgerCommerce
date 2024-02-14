@@ -50,6 +50,10 @@ import Message from './Message.vue';
 
             const res = await req.json();
 
+            this.msg = `pedido  N° ${res.id} realizado com sucesso`;
+
+            setTimeout(() => this.msg = "", 3000)
+
             console.log(res);
 
             this.nome = "";
@@ -69,7 +73,7 @@ import Message from './Message.vue';
 </script>
 
 <template>
-  <Message/>
+  <Message :msg="msg" v-show="msg"/>
     <div>
     <form id="burger-form" method="POST" @submit="createBurger">
       <div class="input-container">
