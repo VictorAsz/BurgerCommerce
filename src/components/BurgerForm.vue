@@ -60,6 +60,9 @@ import Message from './Message.vue';
         },
         mounted(){
           this.getIngredientes()
+        },
+        components: {
+          Message
         }
       }
 
