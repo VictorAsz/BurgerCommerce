@@ -79,7 +79,7 @@
   ],
   "burgers": [
     {
-      "nome": "Matheus Battisti",
+      "nome": "Padre Mascaranhas",
       "carne": "Picanha",
       "pao": "Italiano Branco",
       "opcionais": [
@@ -91,7 +91,7 @@
       "id": "1"
     },
     {
-      "nome": "João Coelho",
+      "nome": "Paulo Coelho",
       "carne": "Maminha",
       "pao": "3 Queijos",
       "opcionais": [
