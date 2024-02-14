@@ -27,7 +27,13 @@
             console.log(data)
 
           },
-         
+          async createBurger(e){
+            e.preventDefault();
+
+            console.log('criou burguer')
+            
+          }
+
         },
         mounted(){
           this.getIngredientes()
