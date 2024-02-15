@@ -17,8 +17,13 @@ export default{
 <template>
   <div class="main-container">
     <Banner/>
-     <h1>Monte o seu burger</h1>
+    
     <BurgerForm/>
   </div>
 </template>
+
+<style scoped>
+
+
+</style>
 
