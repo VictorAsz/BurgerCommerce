@@ -14,7 +14,8 @@ export default {
 <style scoped>
  #main-banner {
     background-image: url("https://tacomfome.com.br/home/assets/img/bg-2.jpg") ;
-    background-position: 0 -450px;
+    background-position: 0 -500px;
+    border-bottom: solid 3px #222;
     background-size: none;
     height: 500px;
     display: flex;
