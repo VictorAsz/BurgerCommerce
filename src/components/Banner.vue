@@ -26,10 +26,11 @@ export default {
   }
 
   #main-banner h1 {
-    color: #FFF;
+    color: #e4be55;
     text-align: center;
     font-size: 60px;
-    background-color: #222;
+    background-color: rgba(000, 000, 000, 0.2);
+    background: linear-gradient(to right, #000000ce, #00000000);
     padding: 20px 40px;
   }
 </style>
