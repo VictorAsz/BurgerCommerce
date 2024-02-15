@@ -82,11 +82,17 @@ console.log(res);
   }
 </script>
 <template>
+
+  <div>
+  <Message :msg="msg" v-show="msg"/>
     <div id="burger-table" v-if="burgers">
-    <Message :msg="msg" v-show="msg"/>
+    
+
+    <h1>Gerenciar pedidos:</h1>
+
     <div>
       <div id="burger-table-heading">
-        <div class="order-id">#:</div>
+        <div class="order-id">ID:</div>
         <div>Cliente:</div>
         <div>Pão:</div>
         <div>Carne:</div>
@@ -119,11 +125,19 @@ console.log(res);
   <div v-else>
     <h2>Não há pedidos no momento!</h2>
   </div>
+
+</div>
 </template>
 
 <style scoped>
+
+  h1{
+    margin-top: 80px;
+    text-align: left;
+  }
  #burger-table {
-    width: 100vh;
+    
+    width: 140vh;
     margin: 0 auto;
   }
 
@@ -153,7 +167,7 @@ console.log(res);
 
   #burger-table-heading .order-id,
   .burger-table-row .order-number {
-    width: 5%;
+    width: 4%;
   }
 
   select {

@@ -17,10 +17,10 @@
  .message-container {
     color: #004085;
     background-color: #cce5ff;
-    border: 2px solid #b8daff;
-    border-radius: 5px;
-    padding: 10px;
-    max-width: 400px;
-    margin: 30px auto;
+    text-align: center;
+    padding: 15px 0px 5px 0px;
+    max-width: 100%;
+    
+    
   }
 </style>
