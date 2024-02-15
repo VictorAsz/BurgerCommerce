@@ -1,6 +1,8 @@
 <template>
-    <footer id="footer">
-        <p>Make Your Burguer &copy; 2024</p>
+     <footer class="footer mt-auto py-3 bg-dark d-flex justify-content-center align-items-center">
+        <div class="container text-center">
+            <p class="footer-text">Make Your Burger &copy; 2024</p>
+        </div>
     </footer>
 </template>
 
@@ -11,16 +13,19 @@ export default {
 </script>
 
 <style scoped>
- #footer {
- 
-    height: 200px;
-    background-color: #222;
-    border-top: 4px solid #111;
-    color: #fcba03;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    bottom: 0;
+
+
+.footer {
+    height: 100px;
+    margin-top: auto;
     width: 100%;
-  }
+}
+
+.footer p {
+    color: #fcba03;
+}
+
+
+
+
 </style>

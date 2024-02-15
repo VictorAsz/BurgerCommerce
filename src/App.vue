@@ -9,6 +9,8 @@
 <script>
 import Navbar from './components/Navbar.vue';
 import Footer from './components/Footer.vue';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.min.js';
 
 export default{
   components: {
@@ -34,8 +36,10 @@ export default{
 
  
   .main-container {
-    margin: 50px;
-    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  
   }
 
   h1 {
@@ -44,4 +48,6 @@ export default{
     margin-bottom: 30px;
     color: #222;
   }
+
+
 </style>

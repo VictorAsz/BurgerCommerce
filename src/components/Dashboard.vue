@@ -123,7 +123,7 @@ console.log(res);
 
 <style scoped>
  #burger-table {
-    max-width: 1200px;
+    width: 100vh;
     margin: 0 auto;
   }
 
