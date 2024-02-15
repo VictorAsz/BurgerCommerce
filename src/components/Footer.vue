@@ -23,6 +23,8 @@ export default {
 
 .footer p {
     color: #fcba03;
+    margin-left: 6%;
+    margin-top: 2%;
 }
 
 
